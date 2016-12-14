@@ -19,8 +19,8 @@
 
 require 'sinatra/base'
 require 'pry'
-#require 'thin'
-#require 'mysql'
+require 'thin'
+require 'mysql'
 require 'tilt/erubis'
 
 # Require siantra helpers

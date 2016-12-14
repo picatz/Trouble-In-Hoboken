@@ -56,7 +56,7 @@ class VulnerableApplication < Sinatra::Base
   end
 
   configure do
-    enable :sessions
+    #enable :sessions
     set :environment, :production
     set :bind, '0.0.0.0'
     set :port, 4567

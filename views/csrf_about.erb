@@ -9,16 +9,17 @@
 <!-- Index page jumbotron -->
 <div class="jumbotron">
   <div class="container">
-    <font color = "ffffff"><strong><h1>Cross-site Scripting</strong></h1>
-        <p>Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users.</p> 
+    <font color = "ffffff"><strong><h1>Cross-site Request Forgery</strong></h1>
+        <p>A CSRF is an exploit found in web applications where unauthorized actions by exploiting the between a webserver and the browser.</p> 
     </font> 
   </div>
 </div>
 
 <div class="container">
-  <h1>Reflected Cross-Site Scripting</h1>
-  <font color = "A9A9A9"><h4>How Can Mirrors Be Real If Our Eyes Aren't Real</h4></font> 
-  <p>Reflected Cross-Site Scipting attacks are non-persistent attacks which are leveraged by malicious scripts when they are "reflected" off of a web application to the victim's browser.</p> 
-  <a class="btn btn-primary btn-lg" href="/reflected_xss" role="button">Example</a>
+  <h1>CSRF</h1>
+  <font color = "A9A9A9"><h4></h4></font> 
+  <p>We can actually fairly simply force this application to log you out of your session if you were to login. You can see an example of how to exploit this web application using this YouTube <strong><a href="linktovideo">video</a></strong>.</p> 
+  <!-- Beware websites that'll try to trick you ;) -->
+  <a class="btn btn-primary btn-lg" href="/logout" role="button">Example</a>
 </div>
 

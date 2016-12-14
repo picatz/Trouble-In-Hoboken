@@ -1,0 +1,54 @@
+<!-- Custom jumbotron background -->
+<style type="text/css">
+.jumbotron {
+  background: url('http://i.imgur.com/Ie0c199.png') no-repeat center center;
+  background-size: cover;
+  padding: 50px;
+}
+</style>
+
+<!-- Index page jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <font color = "ffffff"><strong><h1>All sorts of trouble!</strong></h1>
+        <p>These are all sots of examples of vulnerable code. Client-side Javascript, XSS vulnerabilites, SQL Injection, CSRF -- probably more!</p> 
+    </font> 
+  </div>
+</div>
+
+<div class="container">
+  <h1>Client-Side Login Page</h1>
+  <font color = "A9A9A9"><h4>Client-Side Javascript</h4></font> 
+  <p>Sometimes you come across a login page that ins't "real", with client-side Javascript trying to sanitize input.</p> 
+  <a class="btn btn-primary btn-lg" href="/client_about" role="button">Client-Side »</a>
+</div>
+
+<hr>
+
+<div class="container">
+  <h1>Real-ish Login Page</h1>
+  <font color = "A9A9A9"><h4>SQL Injection</h4></font> 
+  <p>Sometimes you come across a login page that can be injected.</p> 
+  <a class="btn btn-primary btn-lg" href="/sqli_about" role="button">SQL Injection »</a>
+</div>
+
+<hr>
+
+<div class="container">
+  <h1>Always Trust User Input</h1>
+  <font color = "A9A9A9"><h4>Cross-Site Scripting</h4></font> 
+  <p>Sometimes you come across a login page that allows you to inject your own scripts. It's a feature!</p> 
+  <a class="btn btn-primary btn-lg" href="/xss_about" role="button">XSS »</a>
+</div>
+
+<hr>
+
+<div class="container">
+  <h1>Always Trust Input From Other Websites</h1>
+  <font color = "A9A9A9"><h4>Cross-Site Request Forgery</h4></font> 
+  <p>Sometimes you get requests from other websites that try to exploit your application.</p> 
+  <a class="btn btn-primary btn-lg" href="/csrf_about" role="button">CSRF »</a>
+</div>
+
+<hr>
+

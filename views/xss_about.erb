@@ -1,0 +1,31 @@
+<!-- Custom jumbotron background -->
+<style type="text/css">
+.jumbotron {
+  background-size: cover;
+  background: url('http://i.imgur.com/mDhibte.png') no-repeat center center;
+  padding: 50px;
+}
+</style>
+
+<!-- Index page jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <font color = "ffffff"><strong><h1>Cross-site Scripting</strong></h1>
+        <p>Cross-site scripting (XSS) enables attackers to inject client-side scripts into web pages viewed by other users.</p> 
+    </font> 
+  </div>
+</div>
+
+<div class="container">
+  <h1>Reflected Cross-Site Scripting</h1>
+  <font color = "A9A9A9"><h4>How Can Mirrors Be Real If Our Eyes Aren't Real</h4></font> 
+  <p>Reflected Cross-Site Scipting attacks are non-persistent attacks which are leveraged by malicious scripts when they are "reflected" off of a web application to the victim's browser. You can try setting the "stuff" parameter for the example reflected XSS attack and steal a cookie -- a delicious, delicious cookie:</p> 
+  <div class="container">
+    <code>
+      /reflected_xss?stuff=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+    </code>
+  </div>
+  <p><strong>Note</strong>: some browsers will actually help prevent these kinds of attacks. Firefox, in my testing, has worked well.</p>
+  <a class="btn btn-primary btn-lg" href="/reflected_xss" role="button">Example</a>
+</div>
+

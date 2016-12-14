@@ -1,0 +1,31 @@
+<!-- Custom jumbotron background -->
+<style type="text/css">
+.jumbotron {
+  background-size: cover;
+  background: url('http://i.imgur.com/mDhibte.png') no-repeat center center;
+  padding: 50px;
+}
+</style>
+
+<!-- Index page jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <font color = "ffffff"><strong><h1>SQL Injection</strong></h1>
+        <p>SQL injections can be used to attack web applications using SQL databases.</p>
+    </font> 
+  </div>
+</div>
+
+<div class="container">
+  <h1>SQL Injection</h1>
+  <font color = "A9A9A9"><h4>Good 'ol Bobby Drop Tables</h4></font>
+  <p>SQL injection is a technique used to attack web applications with SQL backends where SQL statements dangerously prepared allowing trivial injection by usig the SQL syntax.</p>
+  <div class="container">
+    <code>
+      /reflected_xss?stuff=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
+    </code>
+  </div>
+  <p><strong>Note</strong>: some browsers will actually help prevent these kinds of attacks. Firefox, in my testing, has worked well.</p>
+  <a class="btn btn-primary btn-lg" href="/reflected_xss" role="button">Example</a>
+</div>
+
